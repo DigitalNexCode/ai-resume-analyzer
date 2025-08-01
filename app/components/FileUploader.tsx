@@ -70,7 +70,7 @@ const FileUploader = ({onFileSelect}: FileUploaderProps) => {
                         <p className='text-lg text-gray-500'>
                             <span className='font-semibold'>Click to upload</span> or drag and drop
                         </p>
-                        <p className='text-lg text-gray-500'>Supports PDF, DOC, DOCX(max {formatSize(maxFileSize)})</p>
+                        <p className='text-lg text-gray-500'>Supports PDF(max {formatSize(maxFileSize)})</p>
                     </div>
                 )}
             </div>
